@@ -26,6 +26,7 @@ public class ExcelRead {
             Iterator<Row> rowIterator = sheet.iterator();
             while (rowIterator.hasNext()) 
             {
+            	//Get row
                 Row row = rowIterator.next();
                 //For each row, iterate through all the columns
                 Iterator<Cell> cellIterator = row.cellIterator();
